@@ -1,6 +1,6 @@
 {
   "name": "formio-export",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Formio Export Tools",
   "main": "lib/formio-export.js",
   "directories": {
@@ -42,7 +42,7 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^5.1.1",
     "webpack": "^4.6.0",
-    "webpack-cli": "^2.1.2",
+    "webpack-cli": "^2.1.5",
     "yargs": "^11.0.0"
   },
   "dependencies": {

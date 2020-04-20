@@ -1,3 +1,4 @@
+import HtmlElementComponent from './htmlelement';
 import TextFieldComponent from './textfield';
 import TextAreaComponent from './textarea';
 import EmailComponent from './email';
@@ -60,6 +61,7 @@ const FormioComponent = {
   columns: ColumnsComponent,
   panel: PanelComponent,
   fieldset: FieldSetComponent,
+  htmlelement: HtmlElementComponent,
   unknown: UnknownComponent,
   form: FormComponent,
   create: (component, data, options) => {
