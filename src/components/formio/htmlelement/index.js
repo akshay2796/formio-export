@@ -10,7 +10,7 @@ class HtmlElementComponent extends BaseComponent {
     if (_.isNil(this.component.content)) {
       return this.emptyValue();
     }
-    return this.toHtml(this.content);
+    return this.toHtml(this.component.content);
   }
 }
 

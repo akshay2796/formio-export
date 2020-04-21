@@ -1,3 +1,6 @@
+# This is a fork from Formio Exports
+You can find the original project at https://github.com/airarrazaval/formio-export/
+
 # Formio Export Tools
 
 ![GitHub package version](https://img.shields.io/github/package-json/v/airarrazaval/formio-export.svg) 
@@ -18,7 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 To install this package into your project, you can use the following command within your terminal
 
 ```
-npm install --save formio-export
+npm install --save formio-export-mc
 ```
 
 # Usage
@@ -26,7 +29,7 @@ npm install --save formio-export
 Creating a FormioExport instance
 
 ```javascript
-import FormioExport from 'formio-export';
+import FormioExport from 'formio-export-mc';
 
 let exporter = new FormioExport(component, data, options);
 ```
@@ -162,7 +165,7 @@ let config = {
 Clone git repository:
 
 ```
-git clone git@github.com:airarrazaval/formio-export.git
+git clone git@github.com:marcelcruz1/formio-export.git
 ```
 
 Install dependencies:
@@ -194,6 +197,7 @@ npm run test
 ## Authors
 
 * **Alfredo Irarrazaval** - *Initial work* - [airarrazaval](https://github.com/airarrazaval)
+* **Marcel Cruz** - *Added support to HTMLElement* - [marcelcruz1](https://github.com/marcelcruz1)
 
 ## License
 

@@ -1,33 +1,33 @@
 {
-  "name": "formio-export",
-  "version": "0.3.1",
+  "name": "formio-export-mc",
+  "version": "0.3.19",
   "description": "Formio Export Tools",
-  "main": "lib/formio-export.js",
+  "main": "lib/formio-export-mc.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "build": "webpack --env dev && webpack --env build && npm run test",
+    "build": "webpack --env dev && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --require jsdom-global/register --require babel-core/register --colors ./test/*.spec.js",
     "test:watch": "mocha --require jsdom-global/register --require babel-core/register --colors -w ./test/*.spec.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airarrazaval/formio-export.git"
+    "url": "https://github.com/marcelcruz1/formio-export.git"
   },
   "keywords": [
     "javascript",
     "formio",
     "formiojs"
   ],
-  "author": "Alfredo Irarrazaval",
+  "author": "Marcel Cruz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airarrazaval/formio-export/issues"
+    "url": "https://github.com/marcelcruz1/formio-export/issues"
   },
-  "homepage": "https://github.com/airarrazaval/formio-export#readme",
+  "homepage": "https://github.com/marcelcruz1/formio-export#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",

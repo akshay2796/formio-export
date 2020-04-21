@@ -1,4 +1,3 @@
-import HtmlElementComponent from './htmlelement';
 import TextFieldComponent from './textfield';
 import TextAreaComponent from './textarea';
 import EmailComponent from './email';
@@ -32,6 +31,7 @@ import FormComponent from './form';
 import ColumnsComponent from './columns';
 import PanelComponent from './panel';
 import FieldSetComponent from './fieldset';
+import HtmlElementComponent from './htmlelement';
 
 import UnknownComponent from './unknown';
 

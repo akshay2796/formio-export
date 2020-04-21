@@ -45,39 +45,6 @@
       "properties":{  
 
       }
-   }, 
-   {
-      "key": "html2",
-      "mask": false,
-      "type": "htmlelement",
-      "attrs": [
-          {
-              "attr": "",
-              "value": ""
-          }
-      ],
-      "input": false,
-      "label": "HTML",
-      "logic": [],
-      "content": "<div><b>This note :</b></div><div>Note html, note HTML, call 555-555-5555 . This html element</div></br></br><div>Html Elemenbt with html tags</div>",
-      "reorder": false,
-      "validate": {
-          "json": "",
-          "customMessage": ""
-      },
-      "className": "",
-      "encrypted": false,
-      "tableView": true,
-      "attributes": {},
-      "properties": {},
-      "conditional": {
-          "json": "",
-          "show": "",
-          "when": ""
-      },
-      "alwaysEnabled": false,
-      "refreshOnChange": false,
-      "customConditional": "show = !data.__enterpriseName"
    }
   ]
 }
