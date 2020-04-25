@@ -44,7 +44,18 @@ let options = {
   },
   config: {
     // pdf export configuration
-  }
+  }, 
+  i18n: {
+    en: {
+      "YES": "YES",
+      "NO": "NO"
+    },
+    fr: {
+      "YES": "OUI",
+      "NO": "NON"
+    }
+  },
+  language: "fr"
 };
 
 FormioExport.toPdf(options).then((pdf) => {
