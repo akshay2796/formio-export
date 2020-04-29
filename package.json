@@ -1,6 +1,6 @@
 {
   "name": "formio-export-mc",
-  "version": "0.3.21",
+  "version": "0.3.27",
   "description": "Formio Export Tools",
   "main": "lib/formio-export-mc.js",
   "directories": {
