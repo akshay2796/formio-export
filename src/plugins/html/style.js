@@ -18,7 +18,7 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 #formio__export body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: .9rem;
+	font-size: .8rem;
 	font-weight: 400;
 	line-height: 1.3;
 	color: #212529;
@@ -232,5 +232,5 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 
 #formio__export .formio-component.grid-component>.card-body,
 #formio__export .formio-component.survey-component .component-value>.survey-question>* {
-	padding: 8px
+	padding: 4px
 }`);
