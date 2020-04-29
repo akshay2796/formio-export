@@ -43,8 +43,12 @@ export default class FormioExportTranslation {
   }
 
   static translate (value, options) {
-    const translated = options.i18n[options.language][value];
+    var translated;
 
-    return translated ? translated : value;
+    if (options && options.i18n) {
+      translated = options.i18n[options.language][value];
+      return translated ? translated : value;
+    }
+    return value;
   }
 };
