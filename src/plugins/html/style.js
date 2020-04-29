@@ -5,17 +5,17 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 	size: A4;
 }
 
-.card,
-.col {
+#formio__export .card,
+#formio__export .col {
 	position: relative
 }
 
-.card,
-body {
+#formio__export .card,
+#formio__export body {
 	background-color: #fff
 }
 
-body {
+#formio__export body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: .9rem;
@@ -25,24 +25,24 @@ body {
 	text-align: left
 }
 
-.card-header,
+#formio__export .card-header,
 #formio__export .formio-component.grid-component>.component-value .grid-header,
-.text-bold {
+#formio__export .text-bold {
 	font-weight: 700
 }
 
-.card-header,
-.text-center {
+#formio__export .card-header,
+#formio__export .text-center {
 	text-align: center
 }
 
-*,
+#formio__export *,
 ::after,
 ::before {
 	box-sizing: border-box
 }
 
-.row {
+#formio__export .row {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
@@ -51,7 +51,7 @@ body {
 	margin-left: -8px
 }
 
-.col {
+#formio__export .col {
 	-ms-flex-preferred-size: 0;
 	flex-basis: 0;
 	-ms-flex-positive: 1;
@@ -63,7 +63,7 @@ body {
 	padding-left: 15px
 }
 
-.card {
+#formio__export .card {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
@@ -75,38 +75,38 @@ body {
 	border-radius: 0
 }
 
-.card-header {
+#formio__export .card-header {
 	padding: .75rem 1.25rem;
 	margin-bottom: 0;
 	background-color: rgba(0, 0, 0, .03);
 	border-bottom: 1px solid rgba(0, 0, 0, .125)
 }
 
-.card-body {
+#formio__export .card-body {
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto
 }
 
-.col-sm-3 {
+#formio__export .col-sm-3 {
 	-ms-flex: 0 0 25%;
 	flex: 0 0 25%;
 	max-width: 25%
 }
-.col-sm-9 {
+#formio__export .col-sm-9 {
 	-ms-flex: 0 0 75%;
 	flex: 0 0 75%;
 	max-width: 75%
 }
 
-.text-right {
+#formio__export .text-right {
 	text-align: right
 }
 
-.text-left {
+#formio__export .text-left {
 	text-align: left
 }
 
-.form-title,
+#formio__export .form-title,
 #formio__export .formio-component.signature-component>.component-value {
 	text-align: center
 }
