@@ -1,6 +1,10 @@
 import FormioExportUtils from '../../utils';
 /* eslint max-len:off */
 export const style = FormioExportUtils.createElement('style', { type: 'text/css' }, `
+@page {
+	size: A4;
+}
+
 .card,
 .col {
 	position: relative
@@ -16,7 +20,7 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: .9rem;
 	font-weight: 400;
-	line-height: 1.5;
+	line-height: 1.1;
 	color: #212529;
 	text-align: left
 }
@@ -83,17 +87,15 @@ body {
 	flex: 1 1 auto
 }
 
-@media (min-width:576px) {
-	.col-sm-3 {
-		-ms-flex: 0 0 25%;
-		flex: 0 0 25%;
-		max-width: 25%
-	}
-	.col-sm-9 {
-		-ms-flex: 0 0 75%;
-		flex: 0 0 75%;
-		max-width: 75%
-	}
+.col-sm-3 {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%
+}
+.col-sm-9 {
+	-ms-flex: 0 0 75%;
+	flex: 0 0 75%;
+	max-width: 75%
 }
 
 .text-right {
@@ -143,7 +145,7 @@ body {
 #formio__export .formio-component:not(.card)>.component-label {
 	border-right: 1px solid #ddd;
 	font-weight: 700;
-	padding: 8px
+	padding: 4px
 }
 
 #formio__export .formio-component.card>.component-label {
@@ -151,7 +153,7 @@ body {
 }
 
 #formio__export .formio-component>.component-value {
-	padding: 8px
+	padding: 4px
 }
 
 #formio__export .formio-component>.component-value>.component-item {
@@ -159,7 +161,8 @@ body {
 }
 
 #formio__export .formio-component>.component-value>img {
-	max-width: 250px
+	max-width: 250px;
+    max-height: 70px;
 }
 
 #formio__export .formio-component:not(.survey-component):not(.grid-component)>.component-value.card-body {
@@ -167,7 +170,7 @@ body {
 }
 
 #formio__export .formio-component>.component-value.card-body.grid-transpose {
-	padding: 0 8px
+	padding: 0 4px
 }
 
 .form-title {
@@ -191,7 +194,7 @@ body {
 }
 
 #formio__export .formio-component.grid-component>.component-value {
-	padding: 8px
+	padding: 4px
 }
 
 #formio__export .formio-component.grid-component>.component-value .grid-row:not(.grid-header) {
@@ -209,11 +212,11 @@ body {
 }
 
 #formio__export .formio-component.grid-component>.component-value .grid-header>.grid-cell {
-	padding: 8px
+	padding: 4px
 }
 
 #formio__export .formio-component.grid-component>.component-value.grid-transpose>.row>.col:first-child {
-	padding: 8px;
+	padding: 4px;
 	border-right: 1px solid #ddd
 }
 
@@ -229,5 +232,5 @@ body {
 
 #formio__export .formio-component.grid-component>.card-body,
 #formio__export .formio-component.survey-component .component-value>.survey-question>* {
-	padding: 8px
+	padding: 4px
 }`);
