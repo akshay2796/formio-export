@@ -11,16 +11,16 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 }
 
 #formio__export .card,
-#formio__export body {
+#formio__export {
 	background-color: #fff
 }
 
-#formio__export body {
+#formio__export {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: .8rem;
-	font-weight: 400;
-	line-height: 1.3;
+	font-size: .9rem;
+	font-weight: 500;
+	line-height: 1.2;
 	color: #212529;
 	text-align: left
 }
@@ -35,6 +35,7 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 #formio__export .text-center {
 	text-align: center
 }
+
 
 #formio__export *,
 ::after,
@@ -92,6 +93,11 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 	flex: 0 0 25%;
 	max-width: 25%
 }
+#formio__export .col-sm-6 {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%
+}
 #formio__export .col-sm-9 {
 	-ms-flex: 0 0 75%;
 	flex: 0 0 75%;
@@ -106,6 +112,7 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 	text-align: left
 }
 
+
 #formio__export .form-title,
 #formio__export .formio-component.signature-component>.component-value {
 	text-align: center
@@ -114,7 +121,7 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 #formio__export {
 	border: 1px solid #ddd;
 	font-family: Lato;
-	max-width: 790px
+	max-width: 900px
 }
 
 #formio__export .formio-component:not(.no-layout) {
@@ -161,8 +168,8 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 }
 
 #formio__export .formio-component>.component-value>img {
-	max-width: 250px;
-    max-height: 70px;
+	max-width: 250px
+	max-height: 100px
 }
 
 #formio__export .formio-component:not(.survey-component):not(.grid-component)>.component-value.card-body {
@@ -232,5 +239,5 @@ export const style = FormioExportUtils.createElement('style', { type: 'text/css'
 
 #formio__export .formio-component.grid-component>.card-body,
 #formio__export .formio-component.survey-component .component-value>.survey-question>* {
-	padding: 4px
+	padding: 8px
 }`);
