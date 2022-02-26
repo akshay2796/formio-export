@@ -4,6 +4,8 @@ export const style = FormioExportUtils.createElement(
 	"style",
 	{ type: "text/css" },
 	`
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
 @page {
 	size: A4;
 }
@@ -20,7 +22,7 @@ export const style = FormioExportUtils.createElement(
 
 #formio__export {
 	margin: 0;
-	font-family: 'AMS Manthan Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: 'Heebo', 'AMS Manthan Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: .9rem;
 	font-weight: 500;
 	line-height: 1.2;
