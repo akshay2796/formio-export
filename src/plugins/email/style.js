@@ -4,7 +4,7 @@ export const style = FormioExportUtils.createElement(
   'style',
   { type: 'text/css' },
   `
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
 
 .card,
 .col {
@@ -18,7 +18,7 @@ body {
 
 body {
 	margin: 0;
-	font-family: 'Heebo', 'AMS Manthan Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: 'Eczar', 'AMS Manthan Regular', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-size: .9rem;
 	font-weight: 400;
 	line-height: 1.3;
