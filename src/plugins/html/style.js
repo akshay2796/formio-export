@@ -1,9 +1,9 @@
 import FormioExportUtils from "../../utils";
 /* eslint max-len:off */
 export const style = FormioExportUtils.createElement(
-	"style",
-	{ type: "text/css" },
-	`
+  "style",
+  { type: "text/css" },
+  `
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
 
 @page {
@@ -28,6 +28,7 @@ export const style = FormioExportUtils.createElement(
 	line-height: 1.2;
 	color: #212529;
 	text-align: left
+    letter-spacing: 5px;
 }
 
 #formio__export .card-header,
